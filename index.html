@@ -5,24 +5,26 @@
     </head>
 
     <body>
-        <script>
+        <button onclick="fizzbuzz();">Click me to run fizzbuzz function!</button>
 
+        <script>
             function fizzbuzz () {
                 let num = prompt ('Input a number:');
                 for (let i = 1; i < num; i++)
-                 {
+                {
                     if(i % 3 == 0 && i % 5 == 0)
                     {
-                        console.log(`FizzBuzz`);
+                        document.write(`FizzBuzz` + ` - `);
                     } else if (i % 5 == 0) {
-                         console.log(`Buzz`);
+                        document.write(`Buzz` + ` - `);
                     } else if (i % 3 == 0) {
-                        console.log(`Fizz`);
+                        document.write(`Fizz` + ` - `);
                     } else {
-                        console.log(i);
+                        document.write(i + ` - `);
                     }
                 }
-              }
+                document.writeln(`RELOAD THE PAGE TO RUN FIZZBUZZ FUNCTION AGAIN`);
+            }
         </script>
     </body>
 </html>
