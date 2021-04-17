@@ -13,4 +13,7 @@
     and fizzbuzz if divisble by both 3 and 5.
     
 ## Post project thoughts
-    Edit when project completed
+    Was just as simple as I thought. Not really much to add here as i didn't have any trouble.
+    In the future i definetely need to learn more on how to have js affect the html elements
+    on screen to make stuff look prettier though. Right now the interface is awful
+    but it serves its purpose to simply run the fizzbuzz function.
